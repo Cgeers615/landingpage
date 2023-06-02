@@ -1,0 +1,35 @@
+/* GOOGLE FONT DOWNLOADS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+/*GENERAL STYLES */
+* {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 18px;
+}
+/* HEADER STYLES */
+.header-container{
+    display: flex;
+    background-color:#1F2937;
+    color:#FFFFFF;
+}
+
+.header-logo{
+    flex:1;
+    font-size:24px;
+    font-weight: 700;
+    padding:10px;
+}
+
+.header-nav {
+    flex: 1;
+}
+
+.header-nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.header-nav  li{
+    flex: 1;
+    padding:0 5px;
+}
