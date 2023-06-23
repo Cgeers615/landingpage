@@ -128,3 +128,33 @@ text-align: center;
     flex:auto;
     padding:0px 5px;
 }
+
+/* BLOCK QUOTE STYLES */
+.block-container {
+    display:flex;
+    background-color:#e5e7eb ;
+    width:100%;
+}
+.block-text {
+    flex:1;
+    width:800px;
+    margin-top: 50px;
+    margin-bottom:50px;
+  align-items: center;;
+    
+}
+blockquote {
+    font-family: 'Hind', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    text-align: center;
+    color:#1f2937;
+    align-self: center;
+
+}
+
+blockquote p {
+    font-weight: 700;
+    text-align: right;
+    align-self: center;
+}
