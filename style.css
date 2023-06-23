@@ -127,6 +127,7 @@ text-align: center;
 .box-container p {
     flex:auto;
     padding:0px 5px;
+    color:#1f2937
 }
 
 /* BLOCK QUOTE STYLES */
@@ -157,4 +158,36 @@ blockquote p {
     font-weight: 700;
     text-align: right;
     align-self: center;
+    color:#000;
+}
+
+/* CALL TO ACTION STYLES */
+.cta-container{
+    display: flex;
+    justify-content: center;
+    padding:50px
+}
+
+.cta-box{
+    display: flex;
+    flex: 1;
+    border-radius: 5px;
+    background-color: #3882f6;
+    justify-content: space-around;
+    width: 600px;
+    align-items: center;
+}
+
+.cta-text p{
+    flex:1;
+    color:#ffffff;
+    padding:10px 0;
+}
+
+
+.cta-link a {
+    flex:1;
+    border: 1px solid #FFFFFF;
+    padding: 5px 10px;
+
 }
