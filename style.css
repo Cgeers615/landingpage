@@ -191,3 +191,17 @@ blockquote p {
     padding: 5px 10px;
 
 }
+
+/* FOOTER STYLES */
+.footer-container {
+    display: flex;
+    background-color:#1F2937;
+}
+
+.footer-text {
+    color:#ffffff;
+    text-align: center;
+    padding:20px;
+    font-weight:300;
+    flex: 1;
+}
